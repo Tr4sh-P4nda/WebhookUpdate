@@ -4,6 +4,6 @@
 
 2. Create a webhook on your GitHub repo using the URL for hook.php as the Payload URL and make sure you select "Just the push event". https://developer.github.com/webhooks/creating/
 
-3. Drop live.js or live.min.js into your project / repository (again, must be accessible via the web) and add "<script src="http://yourdomain.com/pathtoyourproject/live.min.js"></script>" to your page.
+3. Drop live.js or live.min.js into your project / repository (again, must be accessible via the web) and add ```<script src="http://yourdomain.com/pathtoyourproject/live.min.js"></script>``` to your HTML file.
 
 4. Reload your application, push to your repo, and enjoy! :)
